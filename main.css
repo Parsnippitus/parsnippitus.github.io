@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'NewRodin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NewRodin'), url("FOTNewRodinPro.otf") format('opentype');
+}
+
+* {
+    font-family: 'NewRodin', serif;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #222;
+}
+
+.text {
+    color: #222;
+}
+
+.text_invert {
+    color: #ccc;
+}
+
+.center {
+    text-align: center;
+}
+
+.icon {
+    width: 5rem;
+    margin-left: 30% 0 0 0;
+    color: #ccc;
+    filter:brightness(0.5);
+}
+
+.icon:hover {
+    filter:brightness(1);
+}
+
+#logoname {
+    width: 40%;
+}
